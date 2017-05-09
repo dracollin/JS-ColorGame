@@ -5,9 +5,14 @@
 	<link rel="stylesheet" type="text/css" href="colorGame.css">
 </head>
 <body>
-<h1>
-	My first <span id="colorDisplay">RGB</span> Color Game
-</h1>
+<h1><span id="underline">O Jogo</span> <br><span id="colorDisplay">RGB</span> <br>de acertar as Cores</h1>
+
+	<div id="stripe">
+		<button id="reset">Novas Cores</button>
+		<span id="message"></span>
+		<button class="mode">Fácil</button>
+		<button class="mode selected">Difícil</button>
+	</div>
 
 	<div id="container">
 		<div class="square"></div>
@@ -18,6 +23,6 @@
 		<div class="square"></div>
 	</div>
 
-<script type="text/javascript" src="colorGame.js"></script>
+	<script type="text/javascript" src="colorGame.js"></script>
 </body>
 </html>
