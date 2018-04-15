@@ -1,5 +1,5 @@
 
-JS-ColorGame
+#JS-ColorGame
 
 A simple step-by-step folloed to understand the dinamic code.
 
